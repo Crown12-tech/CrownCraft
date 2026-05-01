@@ -358,6 +358,46 @@ export const products = [
   image: "/products/hamper45.jpg",
   description: "Premium LED shadow box with multiple photo sections, couple theme setup and personalized name display. Perfect for birthdays, anniversaries and family gifts.",
   category: "Special"
+},
+{
+  id: 220,
+  name: "Premium Personalized Gift Hamper",
+  price: 1399,
+  image: "/products/hamper46.jpg",
+  description: "Luxury hamper with shirt, wallet, belt, watch, mug and custom name accessories. Perfect for premium gifting.",
+  category: "Men"
+},
+{
+  id: 221,
+  name: "Birthday Surprise Premium Box",
+  price: 1299,
+  image: "/products/hamper47.jpg",
+  description: "Birthday special hamper with shirt, watch, chocolates, sunglasses and personalized message.",
+  category: "Birthday"
+},
+{
+  id: 222,
+  name: "Customized Casual Gift Combo",
+  price: 999,
+  image: "/products/hamper48.jpg",
+  description: "Trendy combo with cap, t-shirt, wallet, belt and personalized accessories.",
+  category: "Men"
+},
+{
+  id: 223,
+  name: "Romantic Couple Memory Frame",
+  price: 1399,
+  image: "/products/hamper49.jpg",
+  description: "Beautiful 3D couple frame with photos, floral decor and premium finish.",
+  category: "Couple"
+},
+{
+  id: 224,
+  name: "LED Birthday Shadow Box",
+  price: 1299,
+  image: "/products/hamper50.jpg",
+  description: "Creative LED shadow box with birthday theme, photos and decorative setup.",
+  category: "Special"
 }
 
 ];
