@@ -2,7 +2,7 @@ export const products = [
   {
     id: 101,
     name: "Luxury Love Hamper Box",
-    price: 1499,
+    price: 800,
     image: "/products/hamper1.jpg",
     description: "A premium surprise box filled with chocolates, teddy, accessories, and love notes. Perfect for birthdays, anniversaries, and special surprises.",
     category: "Hamper"
@@ -10,7 +10,7 @@ export const products = [
   {
     id: 102,
     name: "Men’s Premium Gift Combo",
-    price: 1799,
+    price: 999,
     image: "/products/hamper2.jpg",
     description: "Elegant combo featuring shirt, watch, wallet, and sunglasses. A perfect gift for him on birthdays or special occasions.",
     category: "Men"
@@ -18,7 +18,7 @@ export const products = [
   {
     id: 103,
     name: "Romantic Luxury Gift Box",
-    price: 1699,
+    price: 999,
     image: "/products/hamper3.jpg",
     description: "A romantic curated box with chocolates, flowers, and premium accessories to impress your loved one.",
     category: "Couple"
@@ -34,7 +34,7 @@ export const products = [
   {
     id: 105,
     name: "Couple Personalized Gift Box",
-    price: 1999,
+    price: 899,
     image: "/products/hamper5.jpg",
     description: "A customized love hamper with photo memories, lights, and accessories. Ideal for anniversaries.",
     category: "Couple"
@@ -42,7 +42,7 @@ export const products = [
   {
     id: 106,
     name: "Birthday Explosion Gift Box",
-    price: 1599,
+    price: 899,
     image: "/products/hamper6.jpg",
     description: "Creative explosion box filled with chocolates, photos, and surprises that open beautifully.",
     category: "Special"
@@ -58,7 +58,7 @@ export const products = [
   {
     id: 108,
     name: "Cute Teddy Surprise Box",
-    price: 1199,
+    price: 1099,
     image: "/products/hamper8.jpg",
     description: "Adorable teddy with chocolates and decorative lights in a beautiful box.",
     category: "Plush"
@@ -66,7 +66,7 @@ export const products = [
   {
     id: 109,
     name: "Women’s Luxury Gift Hamper",
-    price: 1899,
+    price: 799,
     image: "/products/hamper9.jpg",
     description: "A stylish combo with accessories, perfumes, chocolates, and beauty items.",
     category: "Beauty"
@@ -74,7 +74,7 @@ export const products = [
   {
     id: 110,
     name: "Birthday Special Gift Combo",
-    price: 1399,
+    price: 799,
     image: "/products/hamper10.jpg",
     description: "A colorful birthday hamper with sweets, flowers, and personalized elements.",
     category: "Special"
@@ -82,7 +82,7 @@ export const products = [
   {
     id: 111,
     name: "Photo Memory LED Box",
-    price: 1599,
+    price: 1299,
     image: "/products/hamper11.jpg",
     description: "A glowing memory box with LED lights and custom photos arranged beautifully.",
     category: "Decor"
@@ -90,7 +90,7 @@ export const products = [
   {
     id: 112,
     name: "Anniversary Surprise Gift Box",
-    price: 1799,
+    price: 1199,
     image: "/products/hamper12.jpg",
     description: "Romantic hamper with personalized photos, chocolates, and decorative lights.",
     category: "Couple"
@@ -98,7 +98,7 @@ export const products = [
   {
   id: 113,
   name: "Luxury Black Box Gift Set",
-  price: 1999,
+  price: 1099,
   image: "/products/hamper13.jpg",
   description: "A classy black themed gift box with chocolates, accessories, and premium presentation. Perfect for luxury gifting.",
   category: "Special"
@@ -106,7 +106,7 @@ export const products = [
 {
   id: 114,
   name: "Couple Memory Scrapbook Box",
-  price: 1699,
+  price: 1099,
   image: "/products/hamper14.jpg",
   description: "A beautiful scrapbook-style gift box filled with photos, messages, and cute surprises for your loved one.",
   category: "Couple"
@@ -114,7 +114,7 @@ export const products = [
 {
   id: 115,
   name: "Deluxe Birthday Gift Hamper",
-  price: 1499,
+  price: 999,
   image: "/products/hamper15.jpg",
   description: "A vibrant birthday combo with chocolates, flowers, and personalized elements to make the day extra special.",
   category: "Special"
@@ -122,7 +122,7 @@ export const products = [
 {
   id: 116,
   name: "Premium Ladies Surprise Box",
-  price: 1899,
+  price: 999,
   image: "/products/hamper16.jpg",
   description: "An elegant gift box featuring beauty products, accessories, chocolates, and a luxurious touch.",
   category: "Beauty"
@@ -130,7 +130,7 @@ export const products = [
 {
   id: 117,
   name: "Personalized Love Explosion Box",
-  price: 1799,
+  price: 1199,
   image: "/products/hamper17.jpg",
   description: "A creative explosion box that opens into multiple layers of photos, messages, and sweet surprises.",
   category: "Couple"
@@ -138,7 +138,7 @@ export const products = [
 {
   id: 118,
   name: "Couple Customized Gift Box",
-  price: 1899,
+  price: 899,
   image: "/products/hamper18.jpg",
   description: "A romantic personalized gift box featuring custom mugs, wallet, photos, and accessories. Perfect for couples and anniversaries.",
   category: "Couple"
@@ -146,7 +146,7 @@ export const products = [
 {
   id: 119,
   name: "Men’s Royal Luxury Hamper",
-  price: 2199,
+  price: 899,
   image: "/products/hamper19.jpg",
   description: "Premium men’s combo with wallet, belt, watch, keychain, and personalized accessories. Ideal for birthdays and special gifting.",
   category: "Men"
@@ -154,7 +154,7 @@ export const products = [
 {
   id: 120,
   name: "Love Explosion Memory Box",
-  price: 1799,
+  price: 999,
   image: "/products/hamper20.jpg",
   description: "A creative explosion box with photos, roses, lights, and chocolates that opens into a magical surprise.",
   category: "Couple"
@@ -162,7 +162,7 @@ export const products = [
 {
   id: 121,
   name: "Personalized Premium Gift Set",
-  price: 1999,
+  price: 899,
   image: "/products/hamper21.jpg",
   description: "A luxury set with wallet, pen, bottle, belt, and accessories customized with name. Elegant and classy gifting option.",
   category: "Special"
@@ -170,7 +170,7 @@ export const products = [
 {
   id: 122,
   name: "Anniversary Special Gift Box",
-  price: 1699,
+  price: 799,
   image: "/products/hamper22.jpg",
   description: "Beautiful anniversary hamper with watch, perfume, wallet, roses, and greeting card.",
   category: "Couple"
@@ -178,7 +178,7 @@ export const products = [
 {
   id: 123,
   name: "Photo Cake Surprise Combo",
-  price: 1299,
+  price: 899,
   image: "/products/hamper23.jpg",
   description: "A unique combo with decorated cake and personalized photo sticks. Perfect for birthdays and celebrations.",
   category: "Special"
@@ -186,7 +186,7 @@ export const products = [
 {
   id: 124,
   name: "Luxury Perfume Love Hamper",
-  price: 1799,
+  price: 999,
   image: "/products/hamper24.jpg",
   description: "A premium gift combo with branded perfume, love notes, and decorative roses. Perfect for romantic surprises.",
   category: "Couple"
@@ -194,7 +194,7 @@ export const products = [
 {
   id: 125,
   name: "Travel Couple Gift Set",
-  price: 1599,
+  price: 1499,
   image: "/products/hamper25.jpg",
   description: "A stylish travel hamper with personalized passport covers, luggage tags, and accessories for couples.",
   category: "Couple"
@@ -210,7 +210,7 @@ export const products = [
 {
   id: 127,
   name: "Chocolate Explosion Gift Box",
-  price: 1499,
+  price: 1199,
   image: "/products/hamper27.jpg",
   description: "A creative explosion box filled with chocolates and hidden messages that opens into a magical surprise.",
   category: "Food"
@@ -218,7 +218,7 @@ export const products = [
 {
   id: 128,
   name: "Premium Tech Gift Combo",
-  price: 1999,
+  price: 999,
   image: "/products/hamper28.jpg",
   description: "A modern gift set with smartwatch, wallet, and accessories. Ideal for birthdays and premium gifting.",
   category: "Men"
@@ -226,7 +226,7 @@ export const products = [
 {
   id: 201,
   name: "Premium Grooming Gift Hamper",
-  price: 1399,
+  price: 1099,
   image: "/products/hamper29.jpg",
   description: "Luxury hamper with shirt, wallet, watch, perfume and personalized accessories. Perfect for birthdays.",
   category: "Men"
@@ -250,7 +250,7 @@ export const products = [
 {
   id: 204,
   name: "Smart Watch Gift Combo",
-  price: 1399,
+  price: 1099,
   image: "/products/hamper32.jpg",
   description: "Modern combo with smartwatch, wallet, belt and chocolates. Ideal premium gifting option.",
   category: "Tech"
