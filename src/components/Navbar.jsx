@@ -146,7 +146,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20know%20about%20your%20products"
+            href={`https://wa.me/${PHONE}?text=${encodeURIComponent("Hi I want to know about your products")}`}
             target="_blank" rel="noopener noreferrer"
             className="btn-primary"
             style={{ textAlign: "center", marginTop: ".5rem" }}
