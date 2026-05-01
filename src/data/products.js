@@ -183,4 +183,181 @@ export const products = [
   description: "A unique combo with decorated cake and personalized photo sticks. Perfect for birthdays and celebrations.",
   category: "Special"
 },
+{
+  id: 124,
+  name: "Luxury Perfume Love Hamper",
+  price: 1799,
+  image: "/products/hamper24.jpg",
+  description: "A premium gift combo with branded perfume, love notes, and decorative roses. Perfect for romantic surprises.",
+  category: "Couple"
+},
+{
+  id: 125,
+  name: "Travel Couple Gift Set",
+  price: 1599,
+  image: "/products/hamper25.jpg",
+  description: "A stylish travel hamper with personalized passport covers, luggage tags, and accessories for couples.",
+  category: "Couple"
+},
+{
+  id: 126,
+  name: "Self Care Spa Hamper",
+  price: 1399,
+  image: "/products/hamper26.jpg",
+  description: "Relaxing gift box with scented candles, skincare items, and bath essentials for a calming experience.",
+  category: "Lifestyle"
+},
+{
+  id: 127,
+  name: "Chocolate Explosion Gift Box",
+  price: 1499,
+  image: "/products/hamper27.jpg",
+  description: "A creative explosion box filled with chocolates and hidden messages that opens into a magical surprise.",
+  category: "Food"
+},
+{
+  id: 128,
+  name: "Premium Tech Gift Combo",
+  price: 1999,
+  image: "/products/hamper28.jpg",
+  description: "A modern gift set with smartwatch, wallet, and accessories. Ideal for birthdays and premium gifting.",
+  category: "Men"
+},
+{
+  id: 201,
+  name: "Premium Grooming Gift Hamper",
+  price: 1399,
+  image: "/products/hamper29.jpg",
+  description: "Luxury hamper with shirt, wallet, watch, perfume and personalized accessories. Perfect for birthdays.",
+  category: "Men"
+},
+{
+  id: 202,
+  name: "Classic Birthday Surprise Box",
+  price: 1099,
+  image: "/products/hamper30.jpg",
+  description: "Elegant gift box with shirt, perfume, wallet and roses. A perfect birthday surprise combo.",
+  category: "Birthday"
+},
+{
+  id: 203,
+  name: "White Theme Premium Hamper",
+  price: 1299,
+  image: "/products/hamper31.jpg",
+  description: "Stylish white hamper with shirt, chocolates, accessories and custom name items.",
+  category: "Men"
+},
+{
+  id: 204,
+  name: "Smart Watch Gift Combo",
+  price: 1399,
+  image: "/products/hamper32.jpg",
+  description: "Modern combo with smartwatch, wallet, belt and chocolates. Ideal premium gifting option.",
+  category: "Tech"
+},
+{
+  id: 205,
+  name: "Luxury Personalized Hamper Box",
+  price: 1299,
+  image: "/products/hamper33.jpg",
+  description: "Customized hamper with wallet, sunglasses, watch and name engraving items.",
+  category: "Men"
+},
+{
+  id: 206,
+  name: "LED Photo Memory Hamper",
+  price: 1199,
+  image: "/products/hamper34.jpg",
+  description: "Beautiful LED photo box with personalized pictures and premium gift items inside.",
+  category: "Special"
+},
+{
+  id: 207,
+  name: "Romantic Memory Gift Box",
+  price: 999,
+  image: "/products/hamper35.jpg",
+  description: "Photo collage hamper with lights, chocolates and personalized message card.",
+  category: "Couple"
+},
+{
+  id: 208,
+  name: "Love Story Shadow Box Frame",
+  price: 1399,
+  image: "/products/hamper36.jpg",
+  description: "Creative 3D shadow box with couple photos and decorative theme setup.",
+  category: "Couple"
+},
+{
+  id: 209,
+  name: "Birthday Miniature Box Gift",
+  price: 1199,
+  image: "/products/hamper37.jpg",
+  description: "Cute miniature birthday setup with photos, cake theme and LED lighting.",
+  category: "Birthday"
+},
+{
+  id: 210,
+  name: "Couple Memory Frame Gift",
+  price: 1299,
+  image: "/products/hamper38.jpg",
+  description: "Romantic frame with couple photos, decorations and premium finish.",
+  category: "Couple"
+},
+{
+  id: 211,
+  name: "Chocolate & Perfume Combo Box",
+  price: 999,
+  image: "/products/hamper39.jpg",
+  description: "Gift box with chocolates, perfume and premium accessories for special occasions.",
+  category: "Food"
+},
+{
+  id: 212,
+  name: "Customized Photo Cake Hamper",
+  price: 1399,
+  image: "/products/hamper40.jpg",
+  description: "Special hamper with photo cake theme, chocolates and personalized items.",
+  category: "Special"
+},
+{
+  id: 213,
+  name: "Stylish Casual Gift Combo",
+  price: 1199,
+  image: "/products/hamper41.jpg",
+  description: "Trendy hamper with shirt, chocolates, accessories and custom photo card.",
+  category: "Men"
+},
+{
+  id: 214,
+  name: "Women Luxury Gift Hamper",
+  price: 1299,
+  image: "/products/hamper42.jpg",
+  description: "Elegant hamper with handbag, heels, chocolates and beauty essentials.",
+  category: "Women"
+},
+{
+  id: 215,
+  name: "Red Love Surprise Box",
+  price: 999,
+  image: "/products/hamper43.jpg",
+  description: "Romantic red theme hamper with perfume, watch and decorative roses.",
+  category: "Couple"
+},
+{
+  id: 216,
+  name: "Elegant White Gift Set",
+  price: 1099,
+  image: "/products/hamper44.jpg",
+  description: "Minimal white themed gift box with perfume, jewelry and floral decor.",
+  category: "Women"
+},
+{
+  id: 217,
+  name: "Luxury LED Family Memory Frame",
+  price: 1399,
+  image: "/products/hamper45.jpg",
+  description: "Premium LED shadow box with multiple photo sections, couple theme setup and personalized name display. Perfect for birthdays, anniversaries and family gifts.",
+  category: "Special"
+}
+
 ];
