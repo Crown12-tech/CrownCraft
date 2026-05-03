@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { products } from "../data/products";
 import ProductCard from "../components/ProductCard";
+import { reviews } from "../data/reviews";
 
 const features = [
   { icon: "🎁", title: "Unique Gifts", desc: "Handpicked items curated for every occasion and personality" },
@@ -10,6 +11,14 @@ const features = [
 ];
 
 export default function Home() {
+
+    // ⏱ Time ago function
+  const timeAgo = (dateStr) => {
+    const diff = Math.floor((new Date() - new Date(dateStr)) / (1000 * 60 * 60 * 24));
+    if (diff === 0) return "Today";
+    if (diff === 1) return "1 day ago";
+    return `${diff} days ago`;
+  };
   const featured = products.slice(0, 4);
   const PHONE = import.meta.env.VITE_PHONE_NO;
   
@@ -82,6 +91,14 @@ export default function Home() {
               className="btn-ghost"
             >
               💬 WhatsApp
+            </a>
+            <a
+             href={`https://wa.me/${PHONE}?text=${encodeURIComponent( "Hi I want help choosing a gift" )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-ghost"
+            >
+              🎁Customize Gift
             </a>
           </div>
 
@@ -195,6 +212,131 @@ export default function Home() {
           <Link to="/store" className="btn-primary">
             View All →
           </Link>
+        </div>
+      </section>
+
+ {/* ── REVIEWS / DISPATCHED ORDERS ── */}
+      <section style={{
+        padding: "3rem 1.2rem",
+        maxWidth: 1200,
+        margin: "0 auto"
+      }}>
+        <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+          <p style={{
+            color: "var(--rose)",
+            fontWeight: 600,
+            fontSize: ".8rem"
+          }}>
+            Real Orders
+          </p>
+
+          <h2 className="font-display" style={{
+            fontSize: "clamp(1.6rem, 4vw, 2.2rem)",
+            fontWeight: 800,
+          }}>
+            Recently Dispatched 🎉
+          </h2>
+        </div>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+          gap: "1rem"
+        }}>
+          {reviews.map(r => (
+            <div key={r.id} className="card" style={{ padding: "1.2rem" }}>
+
+              {/* VIDEO OR IMAGE */}
+{r.video ? (
+  <video
+    src={r.video}
+    controls
+    muted
+    style={{
+      width: "100%",
+      height: "160px",
+      objectFit: "cover",
+      borderRadius: "12px",
+      marginBottom: "0.7rem"
+    }}
+  />
+) : (
+  <img
+    src={r.image}
+    alt={r.product}
+    style={{
+      width: "100%",
+      height: "140px",
+      objectFit: "cover",
+      borderRadius: "12px",
+      marginBottom: "0.7rem"
+    }}
+  />
+)}
+
+              {/* STATUS */}
+              <div style={{
+                fontSize: ".8rem",
+                color: "green",
+                fontWeight: 600,
+                marginBottom: ".4rem"
+              }}>
+                ✅ {r.status}
+              </div>
+
+              {/* NAME + DATE */}
+              <div style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: ".2rem"
+              }}>
+                <h3 style={{ fontWeight: 700 }}>
+                  {r.name}
+                </h3>
+
+                <span style={{
+                  fontSize: ".75rem",
+                  color: "var(--muted)"
+                }}>
+                  {timeAgo(r.date)}
+                </span>
+              </div>
+
+              {/* ⭐ STARS */}
+              <div style={{
+                display: "flex",
+                gap: "2px",
+                marginBottom: ".3rem"
+              }}>
+                {[1,2,3,4,5].map(star => (
+                  <span key={star} style={{
+                    color: star <= r.rating ? "#f5a623" : "#ddd",
+                    fontSize: "14px"
+                  }}>
+                    ★
+                  </span>
+                ))}
+              </div>
+
+              {/* PRODUCT */}
+              <p style={{
+                fontSize: ".8rem",
+                color: "var(--muted)",
+                marginBottom: ".4rem"
+              }}>
+                Ordered: {r.product}
+              </p>
+
+              {/* MESSAGE */}
+              <p style={{
+                fontSize: ".85rem"
+              }}>
+                “{r.message}”
+              </p>
+
+            </div>
+          ))}
         </div>
       </section>
 
